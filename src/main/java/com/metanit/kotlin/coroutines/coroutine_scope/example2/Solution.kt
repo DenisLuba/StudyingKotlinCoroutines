@@ -20,15 +20,15 @@ suspend fun main() = coroutineScope {
     println("Hello Coroutines")
 }
 
-//Hello Coroutines
-//6
-//0
-//7
-//1
-//8
-//2
-//3
-//9
-//4
-//10
-//5
+//  Hello Coroutines
+//  6
+//  0
+//  7
+//  1
+//  8
+//  2
+//  3
+//  9
+//  4
+//  10
+//  5

@@ -1,4 +1,4 @@
-package com.metanit.kotlin.coroutines.coroutine_dispatcher.example1.example1
+package com.metanit.kotlin.coroutines.coroutine_dispatcher.example1
 
 /**
  *      coroutineScope устанавливает для создаваемых корутин по умолчанию диспетчер типа Dispatcher.Default

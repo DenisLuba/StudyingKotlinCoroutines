@@ -1,4 +1,4 @@
-package com.metanit.kotlin.coroutines.coroutine_dispatcher.example1.example3
+package com.metanit.kotlin.coroutines.coroutine_dispatcher.example3
 
 /**
  *      newSingleThreadContext вручную запускает поток с указанным именем.

@@ -1,4 +1,4 @@
-package com.metanit.kotlin.coroutines.coroutine_dispatcher.example1.example2
+package com.metanit.kotlin.coroutines.coroutine_dispatcher.example2
 
 import kotlinx.coroutines.*
 

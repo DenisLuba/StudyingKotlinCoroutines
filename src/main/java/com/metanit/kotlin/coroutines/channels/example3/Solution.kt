@@ -1,5 +1,10 @@
 package com.metanit.kotlin.coroutines.channels.example3
 
+/**
+ *      Если для получения данных из канала применяется цикл for, то, получив сигнал о закрытии канала, данный цикл получит
+ *  все ранее посланные объекты до закрытия и завершит выполнение.
+ */
+
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel 
 
@@ -19,3 +24,8 @@ suspend fun main() = coroutineScope {
     }
     println("End")
 }
+
+//  Tom
+//  Bob
+//  Sam
+//  End

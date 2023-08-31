@@ -21,10 +21,10 @@ suspend fun main() = coroutineScope {
     println("End")
 }
 
-// Sending: Tom
-// Received: Tom
-// Sending: Bob
-// Received: Bob
-// Sending: Sam
-// Received: Sam
-// End
+//  Sending: Tom
+//  Received: Tom
+//  Sending: Bob
+//  Received: Bob
+//  Sending: Sam
+//  Received: Sam
+//  End

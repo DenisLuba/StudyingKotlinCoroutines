@@ -21,9 +21,9 @@ suspend fun main() = coroutineScope {
     println("End")
 }
 
-// 1
-// 2
-// 3
-// 4
-// 5
-// End
+//  1
+//  2
+//  3
+//  4
+//  5
+//  End

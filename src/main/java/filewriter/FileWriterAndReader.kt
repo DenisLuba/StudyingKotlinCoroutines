@@ -1,4 +1,4 @@
-package org.example
+package filewriter
 
 import java.io.File
 

@@ -1,10 +1,12 @@
 package com.metanit.kotlin.coroutines.introduction.example3
 
 import kotlinx.coroutines.*
+import kotlinx.coroutines.channels.produce
 
 suspend fun main() = coroutineScope {
     launch { doWork() }
 
+    println(Thread.currentThread().name)
     println("Hello Coroutines")
 }
 
@@ -23,8 +25,10 @@ suspend fun doWork() {
         println(i)
         delay(400L)
     }
+    println(Thread.currentThread().name)
 }
 
+//  main
 //  Hello Coroutines
 //  0
 //  1
@@ -32,3 +36,4 @@ suspend fun doWork() {
 //  3
 //  4
 //  5
+//  DefaultDispatcher-worker-1

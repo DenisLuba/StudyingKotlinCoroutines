@@ -13,6 +13,7 @@ import kotlinx.coroutines.*
 
 suspend fun main() {
     doWork()
+    println(Thread.currentThread().name)
     println("Hello Coroutines")
 }
 
@@ -22,6 +23,7 @@ suspend fun doWork() = coroutineScope { // this: CoroutineScope
             println(i)
             delay(400L)
         }
+        println(Thread.currentThread().name)
     }
 }
 
@@ -31,4 +33,6 @@ suspend fun doWork() = coroutineScope { // this: CoroutineScope
 //  3
 //  4
 //  5
+//  DefaultDispatcher-worker-1
+//  DefaultDispatcher-worker-1
 //  Hello Coroutines

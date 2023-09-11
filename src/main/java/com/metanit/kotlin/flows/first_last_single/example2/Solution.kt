@@ -5,7 +5,7 @@ import kotlinx.coroutines.flow.*
 suspend fun main() {
 
     val userFlow: Flow<String> = listOf("Tom", "Bob", "Kate", "Sam", "Alice").asFlow()
-    val firstUser: String = userFlow.first { name -> name.lenght > 3 }
+    val firstUser: String = userFlow.first { name -> name.length > 3 }
     println("First user: $firstUser")
 }
 

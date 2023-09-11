@@ -1,6 +1,6 @@
 package com.metanit.kotlin.flows.count_take_drop.example4
 
-import kotlin.coroutines.flow.*
+import kotlinx.coroutines.flow.*
 
 suspend fun main() {
 

@@ -5,7 +5,7 @@ import kotlinx.coroutines.flow.*
 suspend fun main() {
 
     val userFlow: Flow<String> = listOf("Tom", "Bob").asFlow()
-    val sungleUser: String = userFlow.singleOrNull()
+    val singleUser: String? = userFlow.singleOrNull()
     if (singleUser != null) println("Single user: $singleUser")
     else println("Not found")
 }

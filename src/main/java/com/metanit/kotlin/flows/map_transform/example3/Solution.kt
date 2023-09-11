@@ -16,6 +16,7 @@ suspend fun main() {
             emit(person.name)
         }
     }.collect { personName -> println(personName) }
+}
 
 data class Person(val name: String, val age: Int)
 

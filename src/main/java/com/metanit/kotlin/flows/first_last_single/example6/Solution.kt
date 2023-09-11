@@ -6,7 +6,7 @@ suspend fun main() {
 
     val userFlow: Flow<String> = listOf("Tom").asFlow()
     try {
-        val sungleUser: String = userFlow.single()
+        val singleUser: String = userFlow.single()
         println("Single user: $singleUser")
     } catch(e: Exception) { println(e.message) }
 }

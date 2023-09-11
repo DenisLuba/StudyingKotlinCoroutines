@@ -6,7 +6,7 @@ suspend fun main() {
 
     val userFlow: Flow<String> = listOf<String>().asFlow()
     val firstUser1: String? = userFlow.firstOrNull()
-    val firstUser2: String? = userFlow.firstOfNull { name -> name.lenght > 3 }
+    val firstUser2: String? = userFlow.firstOrNull { name -> name.length > 3 }
 
     if (firstUser1 == null) println("User not found")
     else println("First user: $firstUser1")
